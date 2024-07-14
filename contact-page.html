@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/contact-page.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <a href="index.html">
+          <img class="arrow" src="img/arrow.svg" />
+        </a>
+        <img class="logo" src="img/logo.png" />
+      </div>
+
+      <div class="content">
+        <div class="contact-us">
+          <p>Contact us</p>
+        </div>
+
+        <div class="send-us-message">
+          <div class="send-us-message-heading">
+            <p>Send us a message</p>
+          </div>
+
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Replace with your Access Key -->
+            <input
+              type="hidden"
+              name="access_key"
+              value="6afe85e9-0508-4814-ac55-4ccde1be62e2"
+            />
+
+            <div class="input-name-container">
+              <input
+                class="input-name"
+                type="text"
+                placeholder="Your name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="input-email-container">
+              <input
+                class="input-email"
+                type="email"
+                placeholder="Your email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="input-message-container">
+              <textarea
+                class="input-message"
+                name="message"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+
+            <div class="h-captcha" data-captcha="true"></div>
+
+            <div class="button-container">
+              <button type="submit" class="submit-button">Send</button>
+            </div>
+          </form>
+          <div class="arrow-container">
+            <p>Scroll</p>
+            <img class="down-arrow" src="img/arrow.svg" />
+          </div>
+        </div>
+
+        <div class="socials">
+          <div class="socials-heading">
+            <!--Zanemi linkove!!!-->
+            <p>Our social apps</p>
+          </div>
+          <div class="instagram">
+            <a href="https://www.instagram.com"
+              ><img class="instagram-icon" src="img/social apps/instagram.svg"
+            /></a>
+            <p>eiarts</p>
+          </div>
+          <div class="facebook">
+            <a href="https://www.facebook.com"
+              ><img class="facebook-icon" src="img/social apps/facebook.svg"
+            /></a>
+            <p>eiarts</p>
+          </div>
+          <div class="x">
+            <a href="https://www.x.com"
+              ><img class="x-icon" src="img/social apps/x.svg"
+            /></a>
+            <p>eiarts</p>
+          </div>
+          <div class="pinterest">
+            <a href="https://www.pinterest .com"
+              ><img class="pinterest-icon" src="img/social apps/pinterest.svg"
+            /></a>
+            <p>eiarts</p>
+          </div>
+          <div class="email">
+            <a href="https://www.pinterest .com"
+              ><img class="email-icon" src="img/social apps/email.svg"
+            /></a>
+            <p>eiarts@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
